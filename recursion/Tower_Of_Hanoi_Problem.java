@@ -15,7 +15,7 @@ public class Tower_Of_Hanoi_Problem {
 		TOH(n-1,helper,src,dest);
 	}
 	public static void main(String[] args) {
-		int n=2;
+		int n=3;
 		TOH(n, "S","H","D");
 	}
 }
