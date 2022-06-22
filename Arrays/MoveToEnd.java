@@ -16,13 +16,5 @@ public class MoveToEnd {
 			}
 		}
 	}
-	public static void main(String[] args) {
-		int []array= {8,5,0,10,0,20};
-	    Move(array);
-	    for(int i=0;i<array.length;i++)
-	    {
-	    	System.out.print(array[i]+" ");
-	    }
-	}
 
 }

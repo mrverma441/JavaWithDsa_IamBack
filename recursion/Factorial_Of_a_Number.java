@@ -8,8 +8,8 @@ public class Factorial_Of_a_Number {
 		{
 			return 1;
 		}
-		int fact=n*Factorial(n-1);
-		return fact;
+		return 	n*Factorial(n-1);
+
 	}
 	public static void main(String[] args) {
 		System.out.println(Factorial(6));

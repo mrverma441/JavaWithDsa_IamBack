@@ -11,8 +11,9 @@ public class Print_Number_from_1to5 {
 			return;
 			
 		}
-		System.out.println(n);
-		print(n+1);
+		System.out.println(n);//print(n-1);
+		
+		print(n+1);//syso(n);
 	}
 	public static void main(String[] args) {
 		Scanner obj=new Scanner(System.in);

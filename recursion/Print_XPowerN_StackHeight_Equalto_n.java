@@ -10,10 +10,10 @@ public class Print_XPowerN_StackHeight_Equalto_n {
 		}
 		if(x==0)
 		{
-			return x;
+			return 0;
 		}
-		int x_pow=x*CP(x,n-1);
-		return x_pow;
+		
+		return x*CP(x,n-1);
 	}
 	public static void main(String[] args) {
 		int x=2;

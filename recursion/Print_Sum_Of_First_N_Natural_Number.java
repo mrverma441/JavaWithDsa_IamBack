@@ -6,9 +6,9 @@ public class Print_Sum_Of_First_N_Natural_Number {
 
 	public static void Print(int i,int n,int sum)
 	{
-		if(i==n)
+		if(i>n)
 		{
-			sum=sum+i;
+			//sum=sum+i;
 			System.out.println(sum);
 			return;
 		}
