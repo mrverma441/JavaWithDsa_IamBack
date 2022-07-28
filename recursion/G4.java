@@ -12,7 +12,7 @@ public class G4 {
 		fun(n-1);
 	}
 	public static void main(String[] args) {
-		fun(3);
+		fun(4);
 	}
 
 }

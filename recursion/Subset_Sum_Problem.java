@@ -11,8 +11,8 @@ public class Subset_Sum_Problem {
 		return CountSubsets(array, n-1, sum)+CountSubsets(array, n-1, sum-array[n-1]);
 	}
 	public static void main(String[] args) {
-		int array[]= {1,2,3};
-		int sum=4;
+		int array[]= {10,5,2,3,6};
+		int sum=8;
 		System.out.println(CountSubsets(array, array.length, sum));
 	}
 }

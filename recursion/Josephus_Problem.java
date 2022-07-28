@@ -14,6 +14,6 @@ public class Josephus_Problem {
 		}
 	}
 	public static void main(String[] args) {
-		System.out.println(Jos(8, 2));
+		System.out.println(Jos(5, 3));
 	}
 }

@@ -13,7 +13,7 @@ public class G6 {
 		}
 	}
 	public static void main(String[] args) {
-		System.out.println(fun(24));
+		System.out.println(fun(48));
 	}
 
 }

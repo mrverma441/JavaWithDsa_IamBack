@@ -5,10 +5,10 @@ public class CountSort_NaiveImplementation {
 	{
 		int n=array.length;
 		int count[]=new int[n];
-//		for(int i=0;i<k;i++)
-//		{
-//			count[i]=0;
-//		}
+		for(int i=0;i<k;i++)
+		{
+			count[i]=0;
+		}
 		for(int i=0;i<n;i++)
 		{
 			count[array[i]]++;

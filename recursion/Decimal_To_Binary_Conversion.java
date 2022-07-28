@@ -12,6 +12,6 @@ public class Decimal_To_Binary_Conversion {
 		System.out.print(n%2);
 	}
 	public static void main(String[] args) {
-		fun(7);
+		fun(15);
 	}
 }
