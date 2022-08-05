@@ -12,7 +12,7 @@ public class Factorial {
 
 	}
 	public static void main(String[] args) {
-		System.out.println(fact(6));
+		System.out.println(fact(8));
 	}
 	
 
